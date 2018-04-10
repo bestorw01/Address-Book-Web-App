@@ -1,0 +1,145 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: #CCA76E;
+	margin: 0 auto;
+	width: auto;
+}
+
+.container {
+	height: auto;
+}
+
+.header {
+	margin-top: 70px;
+	text-align: center;
+	line-height: 0.3em;
+}
+
+h1 {
+	font-size: 90px;
+	color:#723927; 
+	font-weight: 100;
+}
+
+p {
+	color:#FEFDFD;
+	font-weight: 100;
+	font-size:30px;
+	padding-bottom: 20px; 
+}
+
+/*+++++++++++++++++++++
+        BUTTON
++++++++++++++++++++++*/
+
+button {
+	border: 1px solid #FEFDFD;
+	border-radius: 20px;
+	color:#FEFDFD;
+	padding: 15px 40px;
+	font-size: 17px;
+	background-color: transparent;
+	font-weight: 100;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+/*button:hover {
+	border: 1px solid #58290D;
+	border-radius: 20px;
+	color:#58290D;
+	padding: 15px 40px;
+	font-size: 17px;
+	background-color: transparent;
+	font-weight: 100;
+	cursor: pointer;
+}*/
+
+
+/*+++++++++++++++++++++
+        FORM
++++++++++++++++++++++*/
+
+.forms{
+	background-color: #FEFDFD;
+	padding: 20px;
+	box-shadow: 20px 2px 30px; 
+}
+
+form {
+	margin-left: 60px;
+	line-height: 1.5em;
+}
+
+.buttons {
+	margin-top: 11px;
+	border: 1px solid #58290D;
+	border-radius: 30px;
+	color:#58290D;
+	padding: 10px 20px;
+	font-size: 10px;
+	background-color: transparent;
+	font-weight: 100;
+	cursor: pointer;
+}
+
+/*.buttons {
+	border: 1px solid #FEFDFD;
+	border-radius: 30px;
+	color:#FEFDFD;
+	padding: 10px 20px;
+	font-size: 10px;
+	background-color: transparent;
+	font-weight: 100;
+	cursor: pointer;
+}*/
+
+input {
+	width: 450px;
+	height: 40px;
+	border-bottom: 1px solid #58290D;
+	border-right:1px solid #FEFDFD;
+	border-left: 1px solid #FEFDFD;
+	border-top: 1px solid #FEFDFD;
+	line-height: 2.0em;
+	font-size: 17px;
+	color:grey;
+}
+
+label {
+	padding-top: 3px;
+	color:#58290D;
+	font-weight: 300;
+}
+
+form:nth(8) {
+	padding-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*+++++++++++++++++++++
+        FOOTER
++++++++++++++++++++++*/
+.footer {
+	margin-top: 10px;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 13px;
+}
